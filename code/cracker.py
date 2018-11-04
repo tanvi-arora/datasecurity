@@ -4,6 +4,9 @@
 # It is assumed salt value is first 2 characters appended to the encrypted password
 # for unix systems, import 'crypt' and use crypt.crypt function.
 # Below program is written for python2.7 on windows . Install fcrypt seperately 
+# output is password in clear text if found in the dictionary or else reports "No password was found"
+# to use this script , use your own passwords and dictionary file
+# each record in the password file for this program had the format "login : encrypted password : time :....."
 ######################################################
 
 # import libraries
